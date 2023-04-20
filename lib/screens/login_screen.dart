@@ -142,7 +142,7 @@ Future validateForm(LoginFormProvider loginForm, BuildContext context) async {
     if(loginForm.email == "admin@admin.com" && loginForm.password == "admin1") {
       Future.delayed(const Duration(seconds: 3)).then((value) {
         loginForm.isLoading = false;
-        Navigator.pop(context, "home");
+        Navigator.pushReplacementNamed(context, "home");
       });
     } else {
       Future.delayed(const Duration(seconds: 3)).then((value) {
