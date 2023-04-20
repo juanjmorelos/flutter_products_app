@@ -4,5 +4,5 @@
 <p>
   <b>Usuario:</b> admin@admin.com
   <br> 
-  <b>Contraseña:</b> admin
+  <b>Contraseña:</b> admin1
 </p>
